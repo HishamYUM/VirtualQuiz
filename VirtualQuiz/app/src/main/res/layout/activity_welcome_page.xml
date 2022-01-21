@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+
+
+
+ <RelativeLayout
+     android:id="@+id/layout1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginTop="50sp"
+     android:layout_marginLeft="30sp"
+     android:layout_marginRight="20sp"
+     android:layout_marginBottom="70dp"
+     >
+
+     <TextView
+         android:id="@+id/guide"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="GUIDELINES:"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+     <TextView
+          android:id="@+id/pt1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="2 marks will be added for each correct answer and 0.25 will be deducted for each wrong one."
+         android:textSize="20sp"
+         android:layout_below="@+id/guide"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+     <TextView
+         android:id="@+id/pt2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="This series contains 20 questions which are to be solved within specified time i.e 20 minutes ."
+         android:textSize="20sp"
+         android:layout_below="@+id/pt1"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+     <TextView
+         android:id="@+id/pt3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Test should be submitted within 20 minutes otherwise it will be self submitted at the end of time"
+         android:textSize="20sp"
+         android:layout_below="@+id/pt2"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+
+     <TextView
+         android:id="@+id/pt4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Get your information verified before you begin the exam."
+         android:textSize="20sp"
+         android:layout_below="@+id/pt3"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+     <TextView
+         android:id="@+id/pt5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="You can also select multiple answers."
+         android:textSize="20sp"
+         android:layout_below="@+id/pt4"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+     <TextView
+         android:id="@+id/pt6"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Get your score card after your exam is completed."
+         android:textSize="20sp"
+         android:layout_below="@+id/pt5"
+         android:layout_marginTop="15sp"
+         android:textColor="#000000"
+         />
+     <TextView
+         android:id="@+id/click"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/pt6"
+         android:text="Click here"
+         android:textStyle="italic"
+         android:textColor="#3F51B5"
+         android:textSize="20sp"
+         android:layout_marginTop="50dp"
+         />
+     <TextView
+         android:id="@+id/line"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/click"
+         android:layout_below="@+id/pt6"
+         android:text=" to begin the test."
+         android:textSize="20sp"
+         android:layout_marginTop="50dp"
+         />
+ </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="1."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="2."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="3."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="4."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="5."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="6."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>
