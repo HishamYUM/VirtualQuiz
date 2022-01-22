@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontPage"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:paddingHorizontal="40sp"
+            android:text="USER LOGIN"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="150sp"
+            android:text="Username"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/rect"
+            android:hint="Enter your username"
+            android:padding="8dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40sp"
+            android:text="Password"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/rect"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="70sp"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/signup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign up for a new account."
+    android:gravity="center_horizontal"
+    android:layout_marginTop="40sp"
+    android:padding="10dp"
+    android:onClick="signUpClick"
+    android:textSize="15sp"
+    android:textColor="#3F51B5"/>
+
+        <CheckBox
+            android:id="@+id/box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:buttonTint="#000000"
+            android:text=" I agree all the terms and conditions."
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:gravity="right"
+            android:layout_marginTop="20sp"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="#3F51B5"
+            android:textStyle="italic"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
